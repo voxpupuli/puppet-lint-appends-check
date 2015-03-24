@@ -1,9 +1,11 @@
 puppet-lint-appends-check
 ====================================
 
-[![Gem Version](https://img.shields.io/gem/v/puppet-lint-absolute_classname-check.svg)](https://rubygems.org/gems/puppet-lint-appends-check)
-[![Gem Downloads](https://img.shields.io/gem/dt/puppet-lint-absolute_classname-check.svg)](https://rubygems.org/gems/puppet-lint-appends-check)
-[![Coverage Status](https://img.shields.io/coveralls/puppet-community/puppet-lint-absolute_classname-check.svg)](https://coveralls.io/r/puppet-community/puppet-lint-appends-check?branch=master)
+[![Build Status](https://img.shields.io/travis/puppet-community/puppet-lint-appends-check.svg)](https://travis-ci.org/puppet-community/puppet-lint-appends-check)
+[![Gem Version](https://img.shields.io/gem/v/puppet-lint-appends-check.svg)](https://rubygems.org/gems/puppet-lint-appends-check)
+[![Gem Downloads](https://img.shields.io/gem/dt/puppet-lint-appends-check.svg)](https://rubygems.org/gems/puppet-lint-appends-check)
+[![Coverage Status](https://img.shields.io/coveralls/puppet-community/puppet-lint-appends-check.svg)](https://coveralls.io/r/puppet-community/puppet-lint-appends-check?branch=master)
+[![Gemnasium](https://img.shields.io/gemnasium/puppet-community/puppet-lint-appends-check.svg)](https://gemnasium.com/puppet-community/puppet-lint-appends-check)
 
 A puppet-lint plugin to check that classes are included by their absolute name.
 
