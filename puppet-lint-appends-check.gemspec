@@ -1,6 +1,6 @@
 Gem::Specification.new do |spec|
   spec.name        = 'puppet-lint-appends-check'
-  spec.version     = '0.1.1'
+  spec.version     = '0.2.0'
   spec.homepage    = 'https://github.com/puppet-community/puppet-lint-appends-check'
   spec.license     = 'Apache-2.0'
   spec.author      = 'Puppet Community'
