@@ -6,7 +6,7 @@ sudo: false
 cache: bundler
 
 script:
-  - 'bundle exec rake spec'
+  - 'SPEC_OPTS="--format documentation" bundle exec rake spec'
 
 rvm:
   - 1.9.3
