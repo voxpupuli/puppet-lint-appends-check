@@ -48,6 +48,11 @@ $ssh_users = ['myself', 'someone', 'someone_else']
 $ssh_users = hiera('ssh_users')
 ```
 
+#### Auto fixing
+
+There is not one way to properly fix this type of style error, so
+running puppet-lint's fix feature will not have any effect.
+
 #### Disabling the check
 
 To disable this check, you can add `--no-appends-check` to your puppet-lint command line.
