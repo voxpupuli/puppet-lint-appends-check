@@ -7,7 +7,7 @@ puppet-lint-appends-check
 [![Coverage Status](https://img.shields.io/coveralls/puppet-community/puppet-lint-appends-check.svg)](https://coveralls.io/r/puppet-community/puppet-lint-appends-check?branch=master)
 [![Gemnasium](https://img.shields.io/gemnasium/puppet-community/puppet-lint-appends-check.svg)](https://gemnasium.com/puppet-community/puppet-lint-appends-check)
 
-A puppet-lint plugin to check that classes are included by their absolute name.
+A puppet-lint plugin to check that the append (+=) operator is unused.
 
 ## Installing
 
@@ -25,9 +25,9 @@ gem 'puppet-lint-appends-check', :require => false
 
 ## Checks
 
-### Relative class name inclusion
+### Append operator use
 
-Including a class by a relative name might lead to unexpected results.
+Use of the append operator can lead to unexpected behavior.
 
 #### What you have done
 
