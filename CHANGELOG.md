@@ -2,7 +2,15 @@
 
 All notable changes to this project will be documented in this file.
 
-## [1.0.0](https://github.com/voxpupuli/puppet-lint-appends-check/tree/1.0.0) (2021-06-19)
+## [2.0.0](https://github.com/voxpupuli/puppet-lint-appends-check/tree/2.0.0) (2023-04-21)
+
+[Full Changelog](https://github.com/voxpupuli/puppet-lint-appends-check/compare/1.0.0...2.0.0)
+
+**Breaking changes:**
+
+- Drop Ruby \< 2.7; Add RuboCop [\#15](https://github.com/voxpupuli/puppet-lint-appends-check/pull/15) ([bastelfreak](https://github.com/bastelfreak))
+
+## [1.0.0](https://github.com/voxpupuli/puppet-lint-appends-check/tree/1.0.0) (2021-06-25)
 
 [Full Changelog](https://github.com/voxpupuli/puppet-lint-appends-check/compare/0.1.0...1.0.0)
 
