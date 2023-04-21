@@ -16,7 +16,7 @@ describe 'appends' do
         EOS
       end
 
-      it 'should not detect any problems' do
+      it 'does not detect any problems' do
         expect(problems).to have(0).problems
       end
     end
@@ -33,11 +33,11 @@ describe 'appends' do
         EOS
       end
 
-      it 'should detect 3 problems' do
+      it 'detects 3 problems' do
         expect(problems).to have(3).problems
       end
 
-      it 'should create warnings' do
+      it 'creates warnings' do
         expect(problems).to contain_warning(msg).on_line(1).in_column(17)
         expect(problems).to contain_warning(msg).on_line(2).in_column(17)
         expect(problems).to contain_warning(msg).on_line(3).in_column(17)
@@ -66,11 +66,11 @@ describe 'appends' do
         EOS
       end
 
-      it 'should not detect any problems' do
+      it 'does not detect any problems' do
         expect(problems).to have(0).problems
       end
 
-      it 'should not modify the manifest' do
+      it 'does not modify the manifest' do
         expect(manifest).to eq(code)
       end
     end
@@ -87,17 +87,17 @@ describe 'appends' do
         EOS
       end
 
-      it 'should detect 3 problems' do
+      it 'detects 3 problems' do
         expect(problems).to have(3).problems
       end
 
-      it 'should create warnings' do
+      it 'creates warnings' do
         expect(problems).to contain_warning(msg).on_line(1).in_column(17)
         expect(problems).to contain_warning(msg).on_line(2).in_column(17)
         expect(problems).to contain_warning(msg).on_line(3).in_column(17)
       end
 
-      it 'should not fix the ensure parameter because that is not implemented' do
+      it 'does not fix the ensure parameter because that is not implemented' do
         expect(manifest).to eq(code)
       end
     end
